@@ -13,7 +13,7 @@ const navFiller = () => {
   });
 };
 
-//view port helper function https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/#:~:text=Use%20the%20getBoundingClientRect()%20method%20to%20get%20the%20size%20of,in%20the%20viewport%20or%20not.
+//view port helper function // i got help from https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/#:~:text=Use%20the%20getBoundingClientRect()%20method%20to%20get%20the%20size%20of,in%20the%20viewport%20or%20not.
 function isInViewport(el) {
   const rect = el.getBoundingClientRect();
   return rect.top <= 150 && rect.bottom >= 150;
